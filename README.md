@@ -61,13 +61,13 @@ One can open or check existing issues on [GitHub issues](https://github.com/bale
 
 ![Improve-this-doc-button](https://user-images.githubusercontent.com/22801822/113422793-ee9f9c00-93ea-11eb-90de-539e3438babb.png)
 
+If the feature/change needs to be reviewed, a member of the balena team can/will deploy the PR to staging to check the changes. If everything looks good, then the PR would be merged into the master branch promptly in line for the changes to be deployed to production.
+
 ## Deploying
 
-After a PR has been created, a member of the balena team will review and merge the PR. The pull request will undergo CI/CD checks to verify if everything is correct. For example: if a Change-type has been added. More information present in the [CONTRIBUTING document](CONTRIBUTING.md)
+Shortly after merging a PR to the `master` branch, the Heroku app which hosts the [production instance](https://www.balena.io/docs/) will pick up the changes and deploy them. This should only take a few minutes.
 
-Shortly after merging the PR to the `master` branch, it'll automatically be deployed to our [production environment](https://www.balena.io/docs/) (This should only take a few minutes).
-
-If the feature/change needs to be reviewed, a member of the balena team can/will deploy the PR to staging to check the changes. If everything looks good, then the PR would be merged into the `master` branch promptly in line for the changes to be deployed to production.
+If changes are needed to modify this deployment strategy message operations for access to the `resin-docs` app in Balena's Heroku team.
 
 ## Style manual
 
